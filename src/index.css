@@ -1,0 +1,28 @@
+:root {
+  --gray-100: #e6e6e6;
+
+  --pink-100: #FFF2FB;
+  --pink-200: #FFE3F9;
+  --pink-300: #FFCBF2;
+  --pink-400: #FF99E5;
+  --pink-500: #E084CE;
+  --pink-600: #FF5DD5;
+  --pink-700: #EB549C;
+  --pink-800: #A90088;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Quicksand', 'Arial';
+}
+
+*::selection {
+  background: var(--pink-500);
+  color: var(--pink-100);
+}
+
+body {
+  background-color: var(--gray-100)
+}
