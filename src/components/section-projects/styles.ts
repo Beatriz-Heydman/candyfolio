@@ -4,12 +4,16 @@ export const StyledSectionProjects = styled.section`
   width: 90%;
   height: 100%;
   padding: 2.5rem;
+  display: flex;
+  gap: 2rem;
+  flex-direction: column;
 
   .click_here {
     color: var(--pink-800);
     text-decoration: none;
     font-weight: bold;
     position: relative;
+    white-space: nowrap;
 
     &:visited {
       color: var(--pink-600);

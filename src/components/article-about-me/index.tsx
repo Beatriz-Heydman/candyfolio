@@ -6,13 +6,7 @@ import { StyledArticleAboutMe } from "./styles";
 export function ArticleAboutMe() {
   return (
     <StyledArticleAboutMe>
-      <Flex
-        direction="column"
-        gap="1rem"
-        // style={{
-        //   width: "40%",
-        // }}
-      >
+      <Flex direction="column" gap="1rem">
         <div className="icon_woman_container">
           <div className="icon_woman" />
         </div>
@@ -24,14 +18,7 @@ export function ArticleAboutMe() {
         </ButtonCV>
       </Flex>
 
-      <Flex
-        direction="column"
-        alignItems="flex-start"
-        gap="2rem"
-        style={{
-          maxWidth: "850px",
-        }}
-      >
+      <div className="description_about_me_container">
         <Typography size="2rem" color="var(--pink-600)" fontWheight="600">
           Sobre mim
         </Typography>
@@ -39,11 +26,11 @@ export function ArticleAboutMe() {
           Meu nome é Beatriz Heydman, <strong>desenvolvedora Front-End</strong>{" "}
           com a ambição de me tornar <strong>Full Stack</strong>. Minha paixão é
           criar interfaces web envolventes e funcionais. Atualmente, estou
-          expandindo meus conhecimentos em tecnologias front-end. Estou
-          empolgada para compartilhar minha jornada em busca de me tornar uma
-          desenvolvedora completa.
+          expandindo meus conhecimentos em tecnologias{" "}
+          <strong>Front-End</strong>. Estou empolgada para compartilhar minha
+          jornada em busca de me tornar uma desenvolvedora completa.
         </p>
-      </Flex>
+      </div>
     </StyledArticleAboutMe>
   );
 }

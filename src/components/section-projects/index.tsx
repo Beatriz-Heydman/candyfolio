@@ -11,10 +11,8 @@ export function SectionProjects() {
           Projetos
         </Typography>
 
-        <Flex gap="0.4rem">
-          <Typography color="var(--pink-800)">
-            Aqui estão alguns dos meus projetos, para ver todos
-          </Typography>
+        <Typography color="var(--pink-800)">
+          Aqui estão alguns dos meus projetos, para ver todos {""}
           <a
             target="_blank"
             className="click_here"
@@ -22,10 +20,22 @@ export function SectionProjects() {
           >
             clique aqui!
           </a>
-        </Flex>
+        </Typography>
       </Flex>
 
-      <CardProject />
+      <Flex
+        wrap="wrap"
+        gap="4rem"
+        justifyContent="space-between"
+        alignItems="flex-start"
+      >
+        <CardProject />
+        <CardProject />
+        <CardProject />
+        <CardProject />
+        <CardProject />
+        <CardProject />
+      </Flex>
     </StyledSectionProjects>
   );
 }

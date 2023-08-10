@@ -1,15 +1,9 @@
 import { styled } from "styled-components";
 
 export const ButtonCV = styled.button`
-  /* position: relative; */
   display: flex;
   cursor: pointer;
-  /* outline: none; */
-  /* border: 0; */
-  /* vertical-align: middle; */
-  /* text-decoration: none; */
-  /* font-family: inherit; */
-  /* font-size: 15px; */
+  white-space: nowrap;
 
   &.download_cv {
     padding: 1rem 2.5rem;

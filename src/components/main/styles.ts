@@ -15,6 +15,13 @@ export const StyledMain = styled.main`
     background-size: cover;
   }
 
+  .button_social_media {
+    display: flex;
+    gap: 3rem;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+  }
+
   .linkedin:hover {
     color: #567ca5;
   }
@@ -49,15 +56,19 @@ export const StyledMain = styled.main`
       font-size: 1.2rem;
     }
   }
-  @media (max-width: 680px) {
+
+  @media (max-width: 850px) {
+    flex-direction: column;
+
     .donut_logo_main {
       min-width: 221px;
       height: 224px;
     }
   }
-  @media (max-width: 600px) {
-    flex-wrap: wrap;
-  }
-  @media (max-width: 380px) {
+
+  @media (max-width: 700px) {
+    .button_social_media {
+      gap: 1.5rem;
+    }
   }
 `;

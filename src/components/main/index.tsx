@@ -38,12 +38,7 @@ export function Main() {
           </Typography>
         </Flex>
 
-        <Flex
-          gap="3rem"
-          justifyContent="flex-start"
-          wrap="wrap"
-          style={{ minWidth: "100%" }}
-        >
+        <div className="button_social_media">
           <ButtonSocialMedia className="button linkedin">
             <TiSocialLinkedin size="1.5rem" />
           </ButtonSocialMedia>
@@ -59,7 +54,7 @@ export function Main() {
           <ButtonSocialMedia className="button github">
             <TiSocialGithub size="2rem" />
           </ButtonSocialMedia>
-        </Flex>
+        </div>
       </Flex>
 
       <div className="donut_logo_main" />
