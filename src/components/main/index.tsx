@@ -1,10 +1,15 @@
+//Libs
+import { FaGooglePlusG } from "react-icons/fa";
+import { TiSocialLinkedin, TiSocialGithub } from "react-icons/ti";
+import { TbBrandWhatsapp } from "react-icons/tb";
+
+//Styles
+import { StyledMain } from "./styles";
+
+//Components
 import { ButtonSocialMedia } from "../button-social-media";
 import { Flex } from "../flex";
 import { Typography } from "../typography";
-import { StyledMain } from "./styles";
-import { TiSocialLinkedin, TiSocialGithub } from "react-icons/ti";
-import { TbBrandWhatsapp } from "react-icons/tb";
-import { FaGooglePlusG } from "react-icons/fa";
 
 export function Main() {
   return (

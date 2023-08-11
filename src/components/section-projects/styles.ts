@@ -1,3 +1,4 @@
+//Libs
 import { styled } from "styled-components";
 
 export const StyledSectionProjects = styled.section`
@@ -7,6 +8,12 @@ export const StyledSectionProjects = styled.section`
   display: flex;
   gap: 2rem;
   flex-direction: column;
+
+  .balls_tech_container {
+    height: 0px;
+    transform: translateY(-160px);
+    background: red;
+  }
 
   .click_here {
     color: var(--pink-800);
@@ -44,5 +51,9 @@ export const StyledSectionProjects = styled.section`
       transition-duration: 400ms;
       transition-property: width, left;
     }
+  }
+
+  @media (max-width: 430px) {
+    padding: 0.3rem;
   }
 `;

@@ -1,8 +1,13 @@
+//Libs
+import { FaGlobe, FaGithubAlt } from "react-icons/fa";
+
+//Styles
+import { StyledCardProject } from "./styles";
+
+//Components
 import { Flex } from "../flex";
 import { ProjectButton } from "../project-button";
 import { Typography } from "../typography";
-import { StyledCardProject } from "./styles";
-import { FaGlobe, FaGithubAlt } from "react-icons/fa";
 
 export function CardProject() {
   return (
@@ -18,11 +23,11 @@ export function CardProject() {
 
         <Flex gap="1rem">
           <ProjectButton>
-            <FaGlobe size="1.2rem" color="#fff" />
+            <FaGlobe size="1.2rem" />
           </ProjectButton>
 
           <ProjectButton>
-            <FaGithubAlt size="1.2rem" color="#fff" />
+            <FaGithubAlt size="1.2rem" />
           </ProjectButton>
         </Flex>
       </div>

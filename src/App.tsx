@@ -1,3 +1,4 @@
+//Components
 import { ArticleAboutMe } from "./components/article-about-me";
 import { Flex } from "./components/flex";
 import { Header } from "./components/header";
@@ -21,7 +22,6 @@ function App() {
         justifyContent="center"
         style={{
           width: "100%",
-          padding: "1rem",
         }}
       >
         <SectionProjects />

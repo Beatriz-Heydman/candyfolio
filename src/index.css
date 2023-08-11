@@ -9,6 +9,25 @@
   --pink-600: #FF5DD5;
   --pink-700: #EB549C;
   --pink-800: #A90088;
+
+  --orange-100: #FFE5C7;
+  --orange-200: #FF9E2C;
+  --orange-300: #CF7000;
+
+  --blue-100: #B6EEFF;
+  --blue-150: #B7DDFF;
+  --blue-200: #00C2FF;
+  --blue-250: #2C9AFF;
+  --blue-300: #0085AE;
+
+  --yellow-100: #FFF5BF;
+  --yellow-200: #FFD90D;
+  --yellow-300: #DAB800;
+
+  --sea-green-100: #B6FFF6;
+  --sea-green-200: #00D6D6;
+  --sea-green-300: #00B39D;
+
 }
 
 * {

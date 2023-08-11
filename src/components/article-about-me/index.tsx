@@ -1,7 +1,10 @@
+//Styles
+import { StyledArticleAboutMe } from "./styles";
+
+//Components
 import { ButtonCV } from "../button-cv";
 import { Flex } from "../flex";
 import { Typography } from "../typography";
-import { StyledArticleAboutMe } from "./styles";
 
 export function ArticleAboutMe() {
   return (

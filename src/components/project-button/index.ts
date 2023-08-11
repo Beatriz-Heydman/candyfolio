@@ -1,7 +1,9 @@
+//Libs
 import { styled } from "styled-components";
 
 export const ProjectButton = styled.button`
-  padding: 0.2rem 1rem;
+  width: 50px;
+  height: 25px;
   border-radius: 1rem;
   border: 2px solid var(--pink-400);
   background-color: var(--pink-300);
@@ -12,11 +14,13 @@ export const ProjectButton = styled.button`
   overflow: hidden;
   z-index: 1;
   cursor: pointer;
+  color: var(--pink-500);
+  transition: all ease 0.2s;
 
   &::before {
     content: "";
     width: 0;
-    height: 100%;
+    height: 25px;
     position: absolute;
     left: 0;
     background-color: var(--pink-400);
@@ -24,7 +28,11 @@ export const ProjectButton = styled.button`
     z-index: -1;
   }
 
-  &:hover::before {
-    width: 100%;
+  &:hover {
+    color: #fff;
+
+    &::before {
+      width: 100%;
+    }
   }
 `;

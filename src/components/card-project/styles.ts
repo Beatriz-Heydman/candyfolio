@@ -1,3 +1,4 @@
+//Libs
 import { styled } from "styled-components";
 
 export const StyledCardProject = styled.div`
@@ -29,9 +30,17 @@ export const StyledCardProject = styled.div`
     transition: all 0.4s;
   }
 
+  &:hover ~ .balls_tech_container {
+    .ball_tech {
+      transform: translateX(0px);
+      opacity: 1;
+      z-index: -1;
+      filter: blur(0px);
+    }
+  }
+
   &:hover .card_content {
     transform: translateY(150px);
-    /* border-top: none; */
     border-top-right-radius: 0;
     border-top-left-radius: 0;
   }

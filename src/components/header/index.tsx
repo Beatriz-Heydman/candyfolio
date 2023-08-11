@@ -1,6 +1,11 @@
+//Libs
 import { useEffect, useRef } from "react";
-import { Typography } from "../typography";
+
+//Styles
 import { StyledHeader } from "./styles";
+
+//Components
+import { Typography } from "../typography";
 import { Flex } from "../flex";
 import { MenuHamburguer } from "../menu-hamburguer";
 
