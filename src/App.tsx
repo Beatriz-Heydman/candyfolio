@@ -1,9 +1,11 @@
 //Components
 import { ArticleAboutMe } from "./components/article-about-me";
 import { Flex } from "./components/flex";
+import { Footer } from "./components/footer";
 import { Header } from "./components/header";
 import { Main } from "./components/main";
 import { SectionProjects } from "./components/section-projects";
+import { SectionTechLanguage } from "./components/section-tech-language";
 
 function App() {
   return (
@@ -17,15 +19,23 @@ function App() {
 
         <Main />
       </Flex>
+
       <ArticleAboutMe />
+
       <Flex
-        justifyContent="center"
+        direction="column"
         style={{
           width: "100%",
         }}
       >
         <SectionProjects />
+
+        <div className="section_division"></div>
+
+        <SectionTechLanguage />
       </Flex>
+
+      <Footer />
     </>
   );
 }
