@@ -5,13 +5,7 @@ export function Footer() {
   return (
     <StyledFooter>
       <div className="waves_img">
-        <Typography
-          fontWheight="500"
-          color="var(--pink-100)"
-          style={{
-            padding: "2rem",
-          }}
-        >
+        <Typography className="copyright_footer">
           &copy; By Beatriz Heydman
         </Typography>
       </div>

@@ -1,20 +1,32 @@
 import { styled } from "styled-components";
 
 export const StyledFooter = styled.footer`
-  width: 100vw;
-
   .waves_img {
     width: 100%;
-    min-height: 300px;
-    background: url(/assets/images/waves-footer.svg);
+    height: 200px;
+    background: url(/assets/images/waves_footer.svg);
     background-size: cover;
-    margin-top: 1px;
+    margin-top: -1px;
+    overflow-x: hidden;
     display: flex;
     align-items: flex-end;
     justify-content: center;
 
-    /* @media (max-width: 800px) {
-      background-size: contain;
-    } */
+    .copyright_footer {
+      padding: 2rem;
+      font-weight: 500;
+      color: var(--pink-100);
+    }
+
+    @media (max-width: 500px) {
+      height: 100px;
+      background-size: cover;
+      background-repeat: no-repeat;
+
+      .copyright_footer {
+        padding: 0.5rem;
+        font-size: 0.7rem;
+      }
+    }
   }
 `;
