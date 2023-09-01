@@ -10,11 +10,7 @@ export const ButtonSocialMedia = styled.button`
   box-shadow: -2px -2px 3px 1px rgba(255, 255, 255, 0.655),
     -1px 2px 2px 1px rgba(0, 0, 0, 0.3);
   cursor: pointer;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   transition: all cubic-bezier(0.25, 1.5, 0.25, 1) 0.5s;
-  color: var(--pink-700);
 
   &:hover {
     box-shadow: inset 4px 4px 6px -1px rgba(0, 0, 0, 0.2),

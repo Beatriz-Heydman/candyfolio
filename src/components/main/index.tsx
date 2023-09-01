@@ -13,7 +13,7 @@ import { Typography } from "../typography";
 
 export function Main() {
   return (
-    <StyledMain>
+    <StyledMain id="main_page">
       <Flex direction="column" gap="1.5rem" alignItems="flex-start">
         <Flex direction="column" alignItems="flex-start">
           <Typography
@@ -44,20 +44,44 @@ export function Main() {
         </Flex>
 
         <div className="button_social_media">
-          <ButtonSocialMedia className="button linkedin">
-            <TiSocialLinkedin size="1.5rem" />
+          <ButtonSocialMedia>
+            <a
+              className="button linkedin"
+              target="_blank"
+              href="https://www.linkedin.com/in/beatriz-heydman-a1a616266/"
+            >
+              <TiSocialLinkedin size="1.5rem" />
+            </a>
           </ButtonSocialMedia>
 
-          <ButtonSocialMedia className="button whatsapp">
-            <TbBrandWhatsapp size="1.3rem" />
+          <ButtonSocialMedia>
+            <a
+              className="button whatsapp"
+              target="_blank"
+              href="https://wa.me/55199939739533"
+            >
+              <TbBrandWhatsapp size="1.3rem" />
+            </a>
           </ButtonSocialMedia>
 
-          <ButtonSocialMedia className="button plus_g">
-            <FaGooglePlusG size="1.5rem" />
+          <ButtonSocialMedia>
+            <a
+              className="button plus_g"
+              target="_blank"
+              href="mailto:biaheydman@gmail.com"
+            >
+              <FaGooglePlusG size="1.5rem" />
+            </a>
           </ButtonSocialMedia>
 
-          <ButtonSocialMedia className="button github">
-            <TiSocialGithub size="2rem" />
+          <ButtonSocialMedia>
+            <a
+              className="button github"
+              target="_blank"
+              href="https://github.com/Beatriz-Heydman"
+            >
+              <TiSocialGithub size="2rem" />
+            </a>
           </ButtonSocialMedia>
         </div>
       </Flex>

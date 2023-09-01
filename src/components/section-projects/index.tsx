@@ -9,7 +9,7 @@ import { Typography } from "../typography";
 
 export function SectionProjects() {
   return (
-    <StyledSectionProjects>
+    <StyledSectionProjects id="section_projects">
       <Flex gap="1.5rem" direction="column" alignItems="flex-start">
         <Typography size="2.5rem" fontWheight="600" color="var(--pink-600)">
           Projetos

@@ -67,7 +67,7 @@ export function SectionTechLanguage() {
   console.log(languagesTech);
 
   return (
-    <StyledSectionTechLanguage>
+    <StyledSectionTechLanguage id="section_tech_language">
       <Typography size="2.5rem" fontWheight="600" color="var(--pink-600)">
         Tecnologias
       </Typography>

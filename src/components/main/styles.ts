@@ -23,6 +23,16 @@ export const StyledMain = styled.main`
     flex-wrap: wrap;
   }
 
+  .button {
+    width: 100%;
+    height: 100%;
+    color: var(--pink-700);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+  }
+
   .linkedin:hover {
     color: #567ca5;
   }

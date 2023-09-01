@@ -12,7 +12,6 @@ export const StyledSectionProjects = styled.section`
   .balls_tech_container {
     height: 0px;
     transform: translateY(-160px);
-    background: red;
   }
 
   .click_here {

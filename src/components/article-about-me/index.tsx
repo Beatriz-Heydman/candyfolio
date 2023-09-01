@@ -8,7 +8,7 @@ import { Typography } from "../typography";
 
 export function ArticleAboutMe() {
   return (
-    <StyledArticleAboutMe>
+    <StyledArticleAboutMe id="article_about_me">
       <Flex direction="column" gap="1rem">
         <div className="icon_woman_container">
           <div className="icon_woman" />
