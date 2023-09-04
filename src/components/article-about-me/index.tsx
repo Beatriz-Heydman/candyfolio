@@ -15,9 +15,13 @@ export function ArticleAboutMe() {
         </div>
 
         <ButtonCV className="download_cv">
-          <Typography fontWheight="600" color="var(--pink-500)">
+          <a
+            className="file_cv"
+            target="_blank"
+            href="/public/assets/images/Beatriz Heydman - CV.pdf"
+          >
             Baixar CV
-          </Typography>
+          </a>
         </ButtonCV>
       </Flex>
 

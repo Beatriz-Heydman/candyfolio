@@ -29,6 +29,14 @@ export const StyledArticleAboutMe = styled.article`
     background-size: cover;
   }
 
+  .file_cv {
+    padding: 1rem 2.5rem;
+    font-weight: 600;
+    color: var(--pink-500);
+    text-decoration: none;
+    font-size: 1rem;
+  }
+
   .description_about_me_container {
     max-width: 850px;
     display: flex;

@@ -7,7 +7,6 @@ export const ButtonCV = styled.button`
   white-space: nowrap;
 
   &.download_cv {
-    padding: 1rem 2.5rem;
     background: var(--pink-200);
     border: 3px solid var(--pink-500);
     border-radius: 0.75rem;
