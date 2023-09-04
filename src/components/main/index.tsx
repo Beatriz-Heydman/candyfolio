@@ -48,7 +48,7 @@ export function Main() {
             <a
               className="button linkedin"
               target="_blank"
-              href="https://www.linkedin.com/in/beatriz-heydman-a1a616266/"
+              href="https://www.linkedin.com/in/beatriz-heydman/"
             >
               <TiSocialLinkedin size="1.5rem" />
             </a>
