@@ -7,7 +7,7 @@ export const StyledMenuHamburguer = styled.button`
   background-color: var(--pink-600);
   border: 2px solid var(--pink-800);
   top: 1rem;
-  right: 1rem;
+  right: 2rem;
   position: absolute;
   border-radius: 50%;
   box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.25),
@@ -66,7 +66,6 @@ export const StyledMenuHamburguer = styled.button`
 
   .sidebar_subtitle_container {
     width: 100%;
-    color: var(--pink-100);
     font-weight: 500;
     font-size: 1.25rem;
     display: flex;
@@ -78,6 +77,7 @@ export const StyledMenuHamburguer = styled.button`
   }
 
   .sidebar_subtitle {
+    color: var(--pink-100);
     transition: all ease 0.2s;
     cursor: pointer;
     text-decoration: none;
@@ -98,12 +98,12 @@ export const StyledMenuHamburguer = styled.button`
   }
 
   @media (max-width: 550px) {
-    min-width: 50px;
-    min-height: 50px;
-    padding: 0.7rem;
+    width: 50px;
+    height: 50px;
+    padding: 0.6rem;
 
     .menu_hamburguer_bar {
-      height: 6px;
+      height: 7px;
     }
   }
 `;

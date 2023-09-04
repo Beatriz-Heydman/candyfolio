@@ -11,7 +11,7 @@ import { MenuHamburguer } from "../menu-hamburguer";
 
 const MOBILE_BREAKPOINT = 500;
 
-const siteStartName = "<Candyfolio";
+const siteStartName = "< Candyfolio";
 
 const siteEndName = "/>";
 
@@ -42,7 +42,7 @@ export function Header() {
         <Flex gap="0.5rem">
           <Typography
             className="styled_site_name"
-            size="1.7rem"
+            size="1.5rem"
             fontWheight="700"
             fontFamily="Kodchasan"
             color="var(--pink-600)"
@@ -53,7 +53,7 @@ export function Header() {
           <Typography
             className="styled_site_name"
             ref={siteNameRef}
-            size="1.5rem"
+            size="1.4rem"
             fontWheight="700"
             fontFamily="Kodchasan"
             color="var(--pink-100)"

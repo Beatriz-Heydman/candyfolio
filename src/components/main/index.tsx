@@ -1,7 +1,7 @@
 //Libs
 import { FaGooglePlusG } from "react-icons/fa";
 import { TiSocialLinkedin, TiSocialGithub } from "react-icons/ti";
-import { TbBrandWhatsapp } from "react-icons/tb";
+// import { TbBrandWhatsapp } from "react-icons/tb";
 
 //Styles
 import { StyledMain } from "./styles";
@@ -54,7 +54,7 @@ export function Main() {
             </a>
           </ButtonSocialMedia>
 
-          <ButtonSocialMedia>
+          {/* <ButtonSocialMedia>
             <a
               className="button whatsapp"
               target="_blank"
@@ -62,7 +62,7 @@ export function Main() {
             >
               <TbBrandWhatsapp size="1.3rem" />
             </a>
-          </ButtonSocialMedia>
+          </ButtonSocialMedia> */}
 
           <ButtonSocialMedia>
             <a
