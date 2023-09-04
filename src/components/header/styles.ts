@@ -33,7 +33,7 @@ export const StyledHeader = styled.div`
       font-size: 1.2rem;
     }
   }
-  @media (max-width: 350px) {
+  @media (max-width: 400px) {
     .styled_site_name {
       font-size: 1rem;
     }
