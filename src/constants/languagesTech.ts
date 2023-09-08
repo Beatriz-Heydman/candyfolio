@@ -1,0 +1,42 @@
+export const languagesTech = [
+  {
+    id: 1,
+    languageTech: "HTML",
+    backgroundColor: "var(--orange-100)",
+    border: "2px solid var(--orange-200)",
+    color: "var(--orange-300)",
+    transitionDelay: "0",
+  },
+  {
+    id: 2,
+    languageTech: "CSS",
+    backgroundColor: "var(--blue-150)",
+    border: "2px solid var(--blue-250)",
+    color: "var(--blue-300)",
+    transitionDelay: "50ms",
+  },
+  {
+    id: 3,
+    languageTech: "JS",
+    backgroundColor: "var(--yellow-100)",
+    border: "2px solid var(--yellow-200)",
+    color: "var(--yellow-300)",
+    transitionDelay: "100ms",
+  },
+  {
+    id: 4,
+    languageTech: "TS",
+    backgroundColor: "var(--blue-100)",
+    border: "2px solid var(--blue-200)",
+    color: "var(--blue-300)",
+    transitionDelay: "150ms",
+  },
+  {
+    id: 5,
+    languageTech: "REACT",
+    backgroundColor: "var(--sea-green-100)",
+    border: "2px solid var(--sea-green-200)",
+    color: "var(--sea-green-300)",
+    transitionDelay: "200ms",
+  },
+];

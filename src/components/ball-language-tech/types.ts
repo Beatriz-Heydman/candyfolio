@@ -1,4 +1,5 @@
-export type BallLanguageTechProps = {
+export type LanguageTechProps = {
   backgroundColor: string;
   border: string;
+  transitionDelay: string;
 };
