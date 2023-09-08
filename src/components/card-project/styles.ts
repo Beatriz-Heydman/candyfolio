@@ -1,13 +1,14 @@
 //Libs
 import { styled } from "styled-components";
+import { StyledCardProjectProps } from "./types";
 
-export const StyledCardProject = styled.div`
-  width: 270px;
+export const StyledCardProject = styled.div<StyledCardProjectProps>`
+  width: 300px;
   height: 170px;
   border-radius: 0.75rem;
   display: flex;
   justify-content: center;
-  background-image: url("https://th.bing.com/th/id/OIP.lkJn8HA2y1wjnTZMT_6cDAHaEK?pid=ImgDet&rs=1");
+  background-image: ${({ backgroundImage = "" }) => `url(${backgroundImage})`};
   background-size: contain;
   transition: all ease 0.4s;
 
@@ -40,7 +41,7 @@ export const StyledCardProject = styled.div`
   }
 
   &:hover .card_content {
-    transform: translateY(150px);
+    transform: translateY(135px);
     border-top-right-radius: 0;
     border-top-left-radius: 0;
   }
