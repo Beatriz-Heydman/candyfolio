@@ -8,11 +8,11 @@ import { Flex } from "../flex";
 import { Typography } from "../typography";
 
 //Constants
-import { projects } from "../../constants/projects";
-import { languagesTech } from "../../constants/languagesTech";
+import { PROJECTS } from "../../constants/projects";
+import { LANGUAGES_TECH } from "../../constants/languages-tech";
 
 export function SectionProjects() {
-  console.log(languagesTech);
+  console.log(LANGUAGES_TECH);
 
   return (
     <StyledSectionProjects id="section_projects">
@@ -39,10 +39,10 @@ export function SectionProjects() {
         alignItems="flex-start"
         style={{ width: "100%", height: "100%" }}
       >
-        {projects.map((project, index) => (
+        {PROJECTS.map((project, index) => (
           <Flex gap="1rem">
             <CardProject
-              key={index}
+              key={`project-${index}`}
               name={project.name}
               description={project.description}
               image={project.image}
@@ -55,7 +55,7 @@ export function SectionProjects() {
               gap="1rem"
               className="balls_tech_container"
             >
-              {languagesTech.map((languageTech, index) => (
+              {LANGUAGES_TECH.map((languageTech, index) => (
                 <BallLanguageTech
                   key={index}
                   className="ball_tech"

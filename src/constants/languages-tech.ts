@@ -1,11 +1,11 @@
-export const languagesTech = [
+export const LANGUAGES_TECH = [
   {
     id: 1,
     languageTech: "HTML",
     backgroundColor: "var(--orange-100)",
     border: "2px solid var(--orange-200)",
     color: "var(--orange-300)",
-    transitionDelay: "0",
+    transitionDelay: "0ms",
   },
   {
     id: 2,
