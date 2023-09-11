@@ -9,10 +9,10 @@ import { Typography } from "../typography";
 
 //Constants
 import { PROJECTS } from "../../constants/projects";
-import { LANGUAGES_TECH } from "../../constants/languages-tech";
+import { BALLS_LANGUAGES_TECH } from "../../constants/ball-languages-tech";
 
 export function SectionProjects() {
-  console.log(LANGUAGES_TECH);
+  console.log(BALLS_LANGUAGES_TECH);
 
   return (
     <StyledSectionProjects id="section_projects">
@@ -55,7 +55,7 @@ export function SectionProjects() {
               gap="1rem"
               className="balls_tech_container"
             >
-              {LANGUAGES_TECH.map((languageTech, index) => (
+              {BALLS_LANGUAGES_TECH.map((languageTech, index) => (
                 <BallLanguageTech
                   key={index}
                   className="ball_tech"

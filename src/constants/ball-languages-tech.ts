@@ -1,4 +1,4 @@
-export const LANGUAGES_TECH = [
+export const BALLS_LANGUAGES_TECH = [
   {
     id: 1,
     languageTech: "HTML",

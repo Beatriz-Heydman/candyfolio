@@ -16,9 +16,10 @@ export const StyledCardTechLanguage = styled.div<CardTechProps>`
     width: 100%;
     height: 60px;
     border-radius: 0.75rem;
-    background: var(--orange-100);
-    border: 2px solid var(--orange-200);
-    color: black;
+    background-color: ${({ backgroundColor = "" }) => backgroundColor};
+    border: 2px solid;
+    border-color: ${({ borderColor = "" }) => borderColor};
+    color: ${({ color = "" }) => color};
     display: flex;
     align-items: center;
     justify-content: flex-start;
@@ -32,12 +33,12 @@ export const StyledCardTechLanguage = styled.div<CardTechProps>`
     width: 40px;
     height: 40px;
     border-radius: 50%;
-    background-color: var(--orange-200);
-    color: var(--orange-100);
+    color: ${({ backgroundColor = "" }) => backgroundColor};
     font-size: 1.5rem;
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color: ${({ borderColor = "" }) => borderColor};
   }
 
   .card_skills {
@@ -47,17 +48,20 @@ export const StyledCardTechLanguage = styled.div<CardTechProps>`
     border-radius: 0.75rem;
     z-index: -1;
     transition: all cubic-bezier(0.25, 1.5, 0.25, 1) 0.5s;
-    border: 2px solid var(--orange-200);
-    background: #fff4e9;
+    border: 2px solid;
+    border-color: ${({ borderColor = "" }) => borderColor};
+    background-color: ${({ backgroundColor = "" }) => backgroundColor}66;
     flex-direction: column;
     justify-content: flex-end;
     align-items: center;
     overflow: hidden;
+    filter: brightness(1.15);
 
     li {
       opacity: 0;
       scale: 0.5;
       transition: all cubic-bezier(0.25, 1.5, 0.25, 1) 500ms;
+      color: ${({ color = "" }) => color};
     }
   }
 
