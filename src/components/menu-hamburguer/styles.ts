@@ -37,6 +37,7 @@ export const StyledMenuHamburguer = styled.button`
     position: fixed;
     padding-top: 2rem;
     padding-right: 2rem;
+    z-index: 9999;
 
     .menu_hamburguer_bar {
       &:nth-child(1) {
@@ -104,6 +105,12 @@ export const StyledMenuHamburguer = styled.button`
 
     .menu_hamburguer_bar {
       height: 7px;
+    }
+  }
+
+  @media (max-width: 450px) {
+    &.sidebar {
+      width: 100%;
     }
   }
 `;

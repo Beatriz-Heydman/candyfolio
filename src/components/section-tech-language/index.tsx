@@ -36,15 +36,29 @@ export function SectionTechLanguage() {
               borderColor={CARD_LANGUAGE_TECH.borderColor}
               color={CARD_LANGUAGE_TECH.color}
               onMouseOver={() => {
-                setCurrentName(CARD_LANGUAGE_TECH.name);
-                setCurrentDescription(CARD_LANGUAGE_TECH.description);
-                setCurrentColor(CARD_LANGUAGE_TECH.color);
+                if (currentName !== CARD_LANGUAGE_TECH.name) {
+                  const cardTechElement = document.getElementById(
+                    "card_tech_description"
+                  );
+
+                  if (cardTechElement) {
+                    cardTechElement.classList.add("changing_tech");
+
+                    setTimeout(() => {
+                      setCurrentName(CARD_LANGUAGE_TECH.name);
+                      setCurrentDescription(CARD_LANGUAGE_TECH.description);
+                      setCurrentColor(CARD_LANGUAGE_TECH.color);
+                      cardTechElement.classList.remove("changing_tech");
+                    }, 200);
+                  }
+                }
               }}
             />
           ))}
         </Flex>
 
         <CardTechDescription
+          id="card_tech_description"
           name={currentName}
           description={currentDescription}
           color={currentColor}

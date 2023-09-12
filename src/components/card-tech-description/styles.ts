@@ -1,7 +1,8 @@
 //Libs
 import { styled } from "styled-components";
+import { StyledCardTechDescriptionProps } from "./types";
 
-export const StyledCardTechDescription = styled.div`
+export const StyledCardTechDescription = styled.div<StyledCardTechDescriptionProps>`
   max-width: 850px;
   align-items: flex-start;
   justify-content: center;
@@ -9,9 +10,15 @@ export const StyledCardTechDescription = styled.div`
   flex-direction: column;
   gap: 1.5rem;
   line-height: 1.7rem;
+  transition: all ease 0.2s;
+
+  &.changing_tech {
+    opacity: 0;
+    transform: translateY(50px);
+  }
 
   .card {
-    color: ${({ color = "" }) => color};
+    color: ${({ textColor = "" }) => textColor};
   }
 
   .name {

@@ -8,9 +8,10 @@ export function CardTechDescription({
   name,
   description,
   color,
+  ...divProps
 }: CardTechDesciptionProps) {
   return (
-    <StyledCardTechDescription color={color}>
+    <StyledCardTechDescription {...divProps} textColor={color}>
       <span className="name card">{name}</span>
       <span className="description card ">{description}</span>
     </StyledCardTechDescription>

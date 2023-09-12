@@ -14,6 +14,7 @@ export const StyledMain = styled.main`
     height: 346px;
     background: url(/assets/images/donut-logo-main.png);
     background-size: cover;
+    cursor: pointer;
   }
 
   .button_social_media {

@@ -62,6 +62,7 @@ export const StyledCardTechLanguage = styled.div<CardTechLanguageProps>`
       scale: 0.5;
       transition: all cubic-bezier(0.25, 1.5, 0.25, 1) 500ms;
       color: ${({ color = "" }) => color};
+      list-style: inside;
     }
   }
 
@@ -72,10 +73,21 @@ export const StyledCardTechLanguage = styled.div<CardTechLanguageProps>`
     align-items: center;
     flex-direction: column;
     justify-content: center;
+    align-items: flex-start;
     gap: 1rem;
+    padding-left: 2rem;
   }
 
   .card_language_tech:hover + .card_skills {
+    height: 250px;
+
+    li {
+      scale: 1;
+      opacity: 1;
+    }
+  }
+
+  .card_skills:hover {
     height: 250px;
 
     li {

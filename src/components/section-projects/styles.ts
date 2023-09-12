@@ -5,6 +5,7 @@ export const StyledSectionProjects = styled.section`
   width: 90%;
   height: 100%;
   padding: 2.5rem;
+  margin-bottom: 2rem;
   display: flex;
   gap: 2rem;
   flex-direction: column;
