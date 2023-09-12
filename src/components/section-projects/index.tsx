@@ -12,8 +12,6 @@ import { PROJECTS } from "../../constants/projects";
 import { BALLS_LANGUAGES_TECH } from "../../constants/ball-languages-tech";
 
 export function SectionProjects() {
-  console.log(BALLS_LANGUAGES_TECH);
-
   return (
     <StyledSectionProjects id="section_projects">
       <Flex gap="1.5rem" direction="column" alignItems="flex-start">

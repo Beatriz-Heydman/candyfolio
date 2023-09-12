@@ -3,12 +3,14 @@ import { FaGlobe, FaGithubAlt } from "react-icons/fa";
 
 //Styles
 import { StyledCardProject } from "./styles";
+import { ProjectButton } from "../project-button/styles";
+
+//Types
+import { CardProjectProps } from "./types";
 
 //Components
 import { Flex } from "../flex";
-import { ProjectButton } from "../project-button/styles";
 import { Typography } from "../typography";
-import { CardProjectProps } from "./types";
 
 export function CardProject({
   name,
@@ -17,7 +19,6 @@ export function CardProject({
   github,
   deploy,
 }: CardProjectProps) {
-  console.log(image);
   return (
     <StyledCardProject backgroundImage={image}>
       <div className="card_content">

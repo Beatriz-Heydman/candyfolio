@@ -1,6 +1,11 @@
-import { Typography } from "../typography";
+//Styles
 import { StyledCardTechLanguage } from "./styles";
+
+//Types
 import { CardLanguagesTech } from "./types";
+
+//Components
+import { Typography } from "../typography";
 
 export function CardTechLanguage({
   name,

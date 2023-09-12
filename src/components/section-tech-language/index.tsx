@@ -1,9 +1,14 @@
-import { CARDS_LANGUAGES_TECH } from "../../constants/card-languages-tech";
+//Styles
+import { StyledSectionTechLanguage } from "./styles";
+
+//Components
 import { CardTechLanguage } from "../card-tech";
 import { CardTechDescription } from "../card-tech-description";
 import { Flex } from "../flex";
 import { Typography } from "../typography";
-import { StyledSectionTechLanguage } from "./styles";
+
+//Constants
+import { CARDS_LANGUAGES_TECH } from "../../constants/card-languages-tech";
 
 export function SectionTechLanguage() {
   return (
@@ -30,7 +35,6 @@ export function SectionTechLanguage() {
             />
           ))}
         </Flex>
-
         <CardTechDescription />
       </Flex>
     </StyledSectionTechLanguage>

@@ -1,5 +1,7 @@
-//Styles
+//Libs
 import { useState } from "react";
+
+//Styles
 import { StyledMenuHamburguer } from "./styles";
 
 export function MenuHamburguer() {

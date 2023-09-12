@@ -37,10 +37,6 @@ export const StyledMain = styled.main`
     color: #567ca5;
   }
 
-  .whatsapp:hover {
-    color: #56a56b;
-  }
-
   .plus_g:hover {
     color: #f74444;
   }
