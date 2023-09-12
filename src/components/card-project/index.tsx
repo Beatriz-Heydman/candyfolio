@@ -1,16 +1,16 @@
 //Libs
 import { FaGlobe, FaGithubAlt } from "react-icons/fa";
 
+//Components
+import { Flex } from "../flex";
+import { Typography } from "../typography";
+
 //Styles
 import { StyledCardProject } from "./styles";
 import { ProjectButton } from "../project-button/styles";
 
 //Types
 import { CardProjectProps } from "./types";
-
-//Components
-import { Flex } from "../flex";
-import { Typography } from "../typography";
 
 export function CardProject({
   name,

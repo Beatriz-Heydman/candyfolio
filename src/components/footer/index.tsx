@@ -1,8 +1,8 @@
-//Styles
-import { StyledFooter } from "./styles";
-
 //Components
 import { Typography } from "../typography";
+
+//Styles
+import { StyledFooter } from "./styles";
 
 export function Footer() {
   return (

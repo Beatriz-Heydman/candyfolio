@@ -2,13 +2,13 @@
 import { FaGooglePlusG } from "react-icons/fa";
 import { TiSocialLinkedin, TiSocialGithub } from "react-icons/ti";
 
-//Styles
-import { StyledMain } from "./styles";
-
 //Components
 import { ButtonSocialMedia } from "../button-social-media";
 import { Flex } from "../flex";
 import { Typography } from "../typography";
+
+//Styles
+import { StyledMain } from "./styles";
 
 export function Main() {
   return (

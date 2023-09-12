@@ -1,13 +1,13 @@
 //Libs
 import { useEffect, useRef } from "react";
 
-//Styles
-import { StyledHeader } from "./styles";
-
 //Components
 import { Typography } from "../typography";
 import { Flex } from "../flex";
 import { MenuHamburguer } from "../menu-hamburguer";
+
+//Styles
+import { StyledHeader } from "./styles";
 
 const MOBILE_BREAKPOINT = 500;
 

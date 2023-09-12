@@ -1,18 +1,18 @@
 //Styles
 import { StyledCardTechDescription } from "./styles";
 
-//Components
-import { Typography } from "../typography";
+//Types
+import { CardTechDesciptionProps } from "./types";
 
-export function CardTechDescription() {
+export function CardTechDescription({
+  name,
+  description,
+  color,
+}: CardTechDesciptionProps) {
   return (
-    <StyledCardTechDescription>
-      <Typography
-        fontWheight="600"
-        color="var(--orange-300)"
-        size="1.5rem"
-      ></Typography>
-      <Typography color="var(--orange-300)"></Typography>
+    <StyledCardTechDescription color={color}>
+      <span className="name card">{name}</span>
+      <span className="description card ">{description}</span>
     </StyledCardTechDescription>
   );
 }

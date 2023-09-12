@@ -2,9 +2,9 @@
 import { styled } from "styled-components";
 
 //Types
-import { CardTechProps } from "./types";
+import { CardTechLanguageProps } from "./types";
 
-export const StyledCardTechLanguage = styled.div<CardTechProps>`
+export const StyledCardTechLanguage = styled.div<CardTechLanguageProps>`
   min-width: 250px;
   position: relative;
   transition: all cubic-bezier(0.25, 1.5, 0.25, 1) 0.5s;

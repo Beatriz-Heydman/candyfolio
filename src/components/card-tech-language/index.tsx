@@ -1,11 +1,11 @@
+//Components
+import { Typography } from "../typography";
+
 //Styles
 import { StyledCardTechLanguage } from "./styles";
 
 //Types
-import { CardLanguagesTech } from "./types";
-
-//Components
-import { Typography } from "../typography";
+import { CardTechLanguages } from "./types";
 
 export function CardTechLanguage({
   name,
@@ -14,12 +14,14 @@ export function CardTechLanguage({
   color,
   icon,
   skills,
-}: CardLanguagesTech) {
+  onMouseOver,
+}: CardTechLanguages) {
   return (
     <StyledCardTechLanguage
       backgroundColor={backgroundColor}
       borderColor={borderColor}
       color={color}
+      onMouseOver={onMouseOver}
     >
       <div className="card_language_tech">
         <div className="ball_language_icon">{icon}</div>

@@ -1,28 +1,31 @@
-//Styles
-import { StyledSectionTechLanguage } from "./styles";
+//Libs
+import { useState } from "react";
 
 //Components
-import { CardTechLanguage } from "../card-tech";
+import { CardTechLanguage } from "../card-tech-language";
 import { CardTechDescription } from "../card-tech-description";
 import { Flex } from "../flex";
 import { Typography } from "../typography";
+
+//Styles
+import { StyledSectionTechLanguage } from "./styles";
 
 //Constants
 import { CARDS_LANGUAGES_TECH } from "../../constants/card-languages-tech";
 
 export function SectionTechLanguage() {
+  const [currentName, setCurrentName] = useState("");
+  const [currentDescription, setCurrentDescription] = useState("");
+  const [currentColor, setCurrentColor] = useState("");
+
   return (
     <StyledSectionTechLanguage id="section_tech_language">
       <Typography size="2.5rem" fontWheight="600" color="var(--pink-600)">
         Tecnologias
       </Typography>
-      <Flex
-        gap="2rem"
-        justifyContent="space-between"
-        alignItems="flex-start"
-        style={{ width: "100%" }}
-      >
-        <Flex direction="column" gap="1rem">
+
+      <div className="card_language_tech_container">
+        <Flex direction="column" gap="1.25rem">
           {CARDS_LANGUAGES_TECH.map((CARD_LANGUAGE_TECH, id) => (
             <CardTechLanguage
               key={id}
@@ -32,11 +35,21 @@ export function SectionTechLanguage() {
               backgroundColor={CARD_LANGUAGE_TECH.backgroundColor}
               borderColor={CARD_LANGUAGE_TECH.borderColor}
               color={CARD_LANGUAGE_TECH.color}
+              onMouseOver={() => {
+                setCurrentName(CARD_LANGUAGE_TECH.name);
+                setCurrentDescription(CARD_LANGUAGE_TECH.description);
+                setCurrentColor(CARD_LANGUAGE_TECH.color);
+              }}
             />
           ))}
         </Flex>
-        <CardTechDescription />
-      </Flex>
+
+        <CardTechDescription
+          name={currentName}
+          description={currentDescription}
+          color={currentColor}
+        />
+      </div>
     </StyledSectionTechLanguage>
   );
 }

@@ -1,11 +1,11 @@
-//Styles
-import { StyledSectionProjects } from "./styles";
-
 //Components
 import { BallLanguageTech } from "../ball-language-tech";
 import { CardProject } from "../card-project";
 import { Flex } from "../flex";
 import { Typography } from "../typography";
+
+//Styles
+import { StyledSectionProjects } from "./styles";
 
 //Constants
 import { PROJECTS } from "../../constants/projects";

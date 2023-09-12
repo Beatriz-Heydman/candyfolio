@@ -1,17 +1,18 @@
 //Libs
 import { ReactNode } from "react";
 
-export type CardTechProps = {
+export type CardTechLanguageProps = {
   backgroundColor: string;
   borderColor: string;
   color: string;
 };
 
-export type CardLanguagesTech = {
+export type CardTechLanguages = {
   name: string;
   backgroundColor: string;
   borderColor: string;
   color: string;
   icon: ReactNode;
   skills: string[];
+  onMouseOver: () => void;
 };
