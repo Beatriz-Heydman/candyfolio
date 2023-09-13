@@ -37,10 +37,9 @@ export function SectionProjects() {
         alignItems="flex-start"
         style={{ width: "100%", height: "100%" }}
       >
-        {PROJECTS.map((project, index) => (
-          <Flex gap="1rem">
+        {PROJECTS.map((project) => (
+          <Flex key={project.name} gap="1rem">
             <CardProject
-              key={`project-${index}`}
               name={project.name}
               description={project.description}
               image={project.image}
@@ -55,7 +54,7 @@ export function SectionProjects() {
             >
               {BALLS_LANGUAGES_TECH.map((languageTech, index) => (
                 <BallLanguageTech
-                  key={index}
+                  key={`ball-tech-${index}-${project.name}`}
                   className="ball_tech"
                   backgroundColor={languageTech.backgroundColor}
                   border={languageTech.border}

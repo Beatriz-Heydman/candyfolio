@@ -6,10 +6,12 @@ import { Header } from "./components/header";
 import { Main } from "./components/main";
 import { SectionProjects } from "./components/section-projects";
 import { SectionTechLanguage } from "./components/section-tech-language";
+import isPropValid from "@emotion/is-prop-valid";
+import { StyleSheetManager } from "styled-components";
 
 function App() {
   return (
-    <>
+    <StyleSheetManager shouldForwardProp={isPropValid}>
       <Flex
         direction="column"
         justifyContent="flex-start"
@@ -36,7 +38,7 @@ function App() {
       </Flex>
 
       <Footer />
-    </>
+    </StyleSheetManager>
   );
 }
 
