@@ -7,7 +7,7 @@ export const StyledMenuHamburguer = styled.button`
   background-color: var(--pink-600);
   border: 2px solid var(--pink-800);
   top: 1rem;
-  right: 2rem;
+  right: 1rem;
   position: absolute;
   border-radius: 50%;
   box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.25),
@@ -20,6 +20,7 @@ export const StyledMenuHamburguer = styled.button`
   flex-direction: column;
   gap: 0.2rem;
   transition: all ease 0.2s;
+  position: fixed;
 
   &.sidebar {
     height: 100vh;
