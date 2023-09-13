@@ -10,7 +10,18 @@ export const StyledSectionProjects = styled.section`
   gap: 2rem;
   flex-direction: column;
 
+  .card_projects_container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 3rem;
+  }
+
   .balls_tech_container {
+    background-color: red;
     height: 0px;
     transform: translateY(-160px);
   }
@@ -53,7 +64,21 @@ export const StyledSectionProjects = styled.section`
     }
   }
 
-  @media (max-width: 430px) {
+  @media (max-width: 450px) {
     padding: 0.3rem;
+
+    .card_projects_container {
+      align-items: center;
+      justify-content: center;
+      gap: 4.5rem;
+      margin-bottom: 2rem;
+    }
+
+    .balls_tech_container {
+      flex-direction: row;
+      width: 0;
+      transform: translate(-320px, 175px);
+      margin-top: 1.5rem;
+    }
   }
 `;

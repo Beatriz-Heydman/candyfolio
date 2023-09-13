@@ -31,12 +31,7 @@ export function SectionProjects() {
         </Typography>
       </Flex>
 
-      <Flex
-        wrap="wrap"
-        gap="3rem"
-        alignItems="flex-start"
-        style={{ width: "100%", height: "100%" }}
-      >
+      <div className="card_projects_container">
         {PROJECTS.map((project) => (
           <Flex key={project.name} gap="1rem">
             <CardProject
@@ -72,7 +67,7 @@ export function SectionProjects() {
             </Flex>
           </Flex>
         ))}
-      </Flex>
+      </div>
     </StyledSectionProjects>
   );
 }

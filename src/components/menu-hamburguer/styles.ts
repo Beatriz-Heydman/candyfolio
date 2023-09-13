@@ -21,6 +21,7 @@ export const StyledMenuHamburguer = styled.button`
   gap: 0.2rem;
   transition: all ease 0.2s;
   position: fixed;
+  z-index: 9999;
 
   &.sidebar {
     height: 100vh;
