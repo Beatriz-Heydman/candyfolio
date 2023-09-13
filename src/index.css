@@ -52,6 +52,20 @@ body {
   width: 100vw;
   background-color: var(--gray-100);
 
+  &::-webkit-scrollbar {
+    width: 12px;
+  }
+
+  &::-webkit-scrollbar-track {
+    background: var(--pink-200);
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background-color: var(--pink-500);
+    border-radius: 20px;
+    border: 3px solid var(--pink-200);
+  }
+
 }
 
 .section_division {
