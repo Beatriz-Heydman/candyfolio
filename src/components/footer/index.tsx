@@ -9,7 +9,7 @@ export function Footer() {
     <StyledFooter>
       <div className="waves_img">
         <Typography className="copyright_footer">
-          &copy; By Beatriz Heydman
+          &copy; Developed by Beatriz Heydman
         </Typography>
       </div>
     </StyledFooter>

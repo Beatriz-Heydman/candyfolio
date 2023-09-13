@@ -18,7 +18,7 @@ export function ArticleAboutMe() {
           <a
             className="file_cv"
             target="_blank"
-            href="/public/assets/images/Beatriz Heydman - CV.pdf"
+            href="/assets/images/Beatriz Heydman - CV.pdf"
           >
             Baixar CV
           </a>

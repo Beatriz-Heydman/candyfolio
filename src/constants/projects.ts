@@ -3,7 +3,7 @@ export const PROJECTS = [
     id: 1,
     name: "Marvel HQ's",
     description: "Site de listagem de HQ's, com comunicação com API da marvel.",
-    image: "/public/assets/images/marvel-project.png",
+    image: "/assets/images/marvel-project.png",
     github: "https://github.com/Beatriz-Heydman/marvel-project?search=1",
     deploy: "https://marvel-project-psi.vercel.app/",
   },
@@ -12,7 +12,7 @@ export const PROJECTS = [
     name: "Anime",
     description:
       "Site de listagem de Animes, com comunicação com uma API de anime.",
-    image: "/public/assets/images/anime-project.png",
+    image: "/assets/images/anime-project.png",
     github: "https://github.com/Beatriz-Heydman/anime-project?search=1",
     deploy: "https://anime-project-sand.vercel.app/",
   },
@@ -20,7 +20,7 @@ export const PROJECTS = [
     id: 3,
     name: "Buscador de CEP",
     description: "Site de busca de CEP, com comunicação com API Viacep.",
-    image: "/public/assets/images/zip-search-project.png",
+    image: "/assets/images/zip-search-project.png",
     github: "https://github.com/Beatriz-Heydman/zip-search?search=1",
     deploy: "https://zip-search.vercel.app/",
   },
@@ -29,7 +29,7 @@ export const PROJECTS = [
     name: "Lista de tarefas",
     description:
       "Site de listagem de tarefas, com persistência de dados no local storage.",
-    image: "/public/assets/images/to-do-list-project.png",
+    image: "/assets/images/to-do-list-project.png",
     github: "https://github.com/Beatriz-Heydman/new-to-do-list?search=1",
     deploy: "https://new-to-do-list-pink.vercel.app/",
   },
@@ -38,7 +38,7 @@ export const PROJECTS = [
     name: "Gestão de despesas",
     description:
       "Site de controle de despesas, com API fake usando json server.",
-    image: "/public/assets/images/expense-management-project.png",
+    image: "/assets/images/expense-management-project.png",
     github: "https://github.com/Beatriz-Heydman/expense-management?search=1",
     deploy: "https://github.com/Beatriz-Heydman/expense-management#readme",
   },
@@ -47,7 +47,7 @@ export const PROJECTS = [
     name: "Formulário de usuários",
     description:
       "Site de CRUD (create, read, update and delete) de usuários, com API fake usando json server.",
-    image: "/public/assets/images/crud-users-form-project.png",
+    image: "/assets/images/crud-users-form-project.png",
     github: "https://github.com/Beatriz-Heydman/crud-users-form?search=1",
     deploy: "https://github.com/Beatriz-Heydman/crud-users-form#readme",
   },
