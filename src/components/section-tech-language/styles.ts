@@ -20,6 +20,12 @@ export const StyledSectionTechLanguage = styled.section`
   @media (max-width: 750px) {
     .card_language_tech_container {
       flex-direction: column;
+      align-items: center;
+      justify-content: center;
     }
+  }
+
+  @media (max-width: 550px) {
+    width: 100%;
   }
 `;
