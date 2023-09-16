@@ -1,3 +1,4 @@
+//Libs
 import { ComponentProps } from "react";
 
 export type CardTechDesciptionProps = ComponentProps<"div"> & {
