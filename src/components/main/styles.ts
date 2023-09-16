@@ -15,6 +15,7 @@ export const StyledMain = styled.main`
     background: url(/assets/images/donut-logo-main.png);
     background-size: cover;
     cursor: pointer;
+    position: relative;
   }
 
   .button_social_media {
@@ -46,6 +47,27 @@ export const StyledMain = styled.main`
     color: #5d5d5d;
   }
 
+  #donut_bitten {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    position: absolute;
+    z-index: 9999;
+    opacity: 0;
+    cursor: default;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* transition-duration: 0.5s;
+    transition-timing-function: ease-out; */
+
+    transition: all cubic-bezier(0.1, 3.5, 0.8, 2) 0.6s;
+
+    &.is_moving {
+      opacity: 1;
+      position: fixed;
+    }
+  }
   @media (max-width: 950px) {
     .donut_logo_main {
       min-width: 301px;

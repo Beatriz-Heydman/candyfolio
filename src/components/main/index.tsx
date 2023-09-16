@@ -11,6 +11,31 @@ import { Typography } from "../typography";
 import { StyledMain } from "./styles";
 
 export function Main() {
+  function moveDonut(event: MouseEvent) {
+    const donutBitten = document.getElementById("donut_bitten");
+
+    const positionX = event.clientX;
+    const positionY = event.clientY;
+
+    if (donutBitten) {
+      donutBitten.style.left = positionX + "px";
+      donutBitten.style.top = positionY + 32 + "px";
+    }
+  }
+
+  function followMouse() {
+    const donutBitten = document.getElementById("donut_bitten");
+
+    if (donutBitten?.classList.contains("is_moving")) {
+      donutBitten?.classList.remove("is_moving");
+
+      window.removeEventListener("mousemove", moveDonut);
+    } else {
+      donutBitten?.classList.add("is_moving");
+      window.addEventListener("mousemove", moveDonut);
+    }
+  }
+
   return (
     <StyledMain id="main_page">
       <Flex direction="column" gap="1.5rem" alignItems="flex-start">
@@ -74,8 +99,9 @@ export function Main() {
           </ButtonSocialMedia>
         </div>
       </Flex>
-
-      <div className="donut_logo_main" />
+      <div className="donut_logo_main" onClick={followMouse}>
+        <img id="donut_bitten" src="/assets/images/donut-logo.png" />
+      </div>
     </StyledMain>
   );
 }
