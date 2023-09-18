@@ -15,17 +15,11 @@ export const StyledSectionTechLanguage = styled.section`
     gap: 2rem;
     justify-content: space-between;
     align-items: flex-start;
-  }
 
-  @media (max-width: 750px) {
-    .card_language_tech_container {
+    @media (max-width: 750px) {
       flex-direction: column;
-      align-items: center;
+      align-items: flex-start;
       justify-content: center;
     }
-  }
-
-  @media (max-width: 550px) {
-    width: 100%;
   }
 `;

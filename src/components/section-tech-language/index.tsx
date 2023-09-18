@@ -29,7 +29,7 @@ export function SectionTechLanguage() {
       </Typography>
 
       <div className="card_language_tech_container">
-        <Flex direction="column" gap="1.25rem">
+        <Flex style={{ width: "100%" }} direction="column" gap="1.25rem">
           {CARDS_LANGUAGES_TECH.map((CARD_LANGUAGE_TECH, id) => (
             <CardTechLanguage
               key={id}

@@ -96,7 +96,7 @@ export const StyledCardTechLanguage = styled.div<CardTechLanguageProps>`
     }
   }
 
-  @media (max-width: 550px) {
-    min-width: 90vw;
+  @media (max-width: 680px) {
+    width: 100%;
   }
 `;
