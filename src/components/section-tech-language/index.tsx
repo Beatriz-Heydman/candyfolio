@@ -14,9 +14,13 @@ import { StyledSectionTechLanguage } from "./styles";
 import { CARDS_LANGUAGES_TECH } from "../../constants/card-languages-tech";
 
 export function SectionTechLanguage() {
-  const [currentName, setCurrentName] = useState("");
-  const [currentDescription, setCurrentDescription] = useState("");
-  const [currentColor, setCurrentColor] = useState("");
+  const [currentName, setCurrentName] = useState(CARDS_LANGUAGES_TECH[0].name);
+  const [currentDescription, setCurrentDescription] = useState(
+    CARDS_LANGUAGES_TECH[0].description
+  );
+  const [currentColor, setCurrentColor] = useState(
+    CARDS_LANGUAGES_TECH[0].color
+  );
 
   return (
     <StyledSectionTechLanguage id="section_tech_language">
