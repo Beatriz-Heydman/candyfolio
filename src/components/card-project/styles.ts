@@ -26,7 +26,7 @@ export const StyledCardProject = styled.div<StyledCardProjectProps>`
     padding: 1rem;
     width: 100%;
     height: 100%;
-    cursor: pointer;
+    cursor: default;
     background-color: var(--pink-100);
     border: 3px solid var(--pink-300);
     border-radius: 0.75rem;
