@@ -1,27 +1,32 @@
-# React + TypeScript + Vite
+## Tecnologias 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<div>
+   
+ <img src="https://cdn0.iconfinder.com/data/icons/logos-brands-in-colors/128/react-512.png" width="52"/>
+<img src="https://th.bing.com/th/id/OIP.o42cmdc6hAzMlb5k5VBv1AHaHa?pid=ImgDet&rs=1" width="52"/>
+<img src="https://www.bing.com/th?id=OIP.bSEhsvI9lRtWOq4-Jz-QxAHaHa&w=99&h=100&c=8&rs=1&qlt=90&o=6&dpr=1.3&pid=3.1&rm=2" width="52"/>
+<img src="https://th.bing.com/th?id=OIP.c1rnU4_5k7Mimo_CA1efmQAAAA&w=224&h=224&c=8&rs=1&qlt=90&o=6&dpr=1.3&pid=3.1&rm=2" width="52"/>
+<img src="https://th.bing.com/th/id/OIP.-AjQllNCZP3Bp7gHsV_ySQHaHa?pid=ImgDet&rs=1" width="52"/>
+</div>
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### Apresentação
+Portfolio para demonstrar minhas habilidades com programação, espero que goste :)
 
-## Expanding the ESLint configuration
+### Demonstração
+Link: [Meu porfolio](https://meuporfolio.com)
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+### Execute o projeto em sua máquina
 
-- Configure the top-level `parserOptions` property like this:
+Para executar o projeto em sua máquina, siga os seguintes passos:
 
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+ 1. Clone o projeto 
+ 2. Instale as dependências com o comando:  
+ ```shell 
+ yarn
+ ```
+3. Execute o comando:
+```shell 
+ yarn dev
+ ``` 
+ Para executar o projeto em sua máquina
