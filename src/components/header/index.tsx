@@ -9,7 +9,7 @@ import { MenuHamburguer } from "../menu-hamburguer";
 //Styles
 import { StyledHeader } from "./styles";
 
-const MOBILE_BREAKPOINT = 500;
+const MOBILE_BREAKPOINT = 770;
 
 const siteStartName = "< Candyfolio";
 
