@@ -1,6 +1,6 @@
 ## Tecnologias 
 
-<div >
+<div display='flex' gap='1.5rem' >
    
 <img src="https://www.offidocs.com/images/logohtmlhtml5.jpg" width="52"/>
 <img src="https://gremmedia.hu/storage/app/uploads/public/5eb/e9a/f22/5ebe9af2215a9357125656.png" width="52"/>
