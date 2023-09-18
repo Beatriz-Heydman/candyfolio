@@ -13,7 +13,7 @@
 
 
 ### Apresentação
-Portfolio para demonstrar minhas habilidades com programação, espero que goste :)
+Portfólio para demonstrar minhas habilidades com programação, espero que goste :)
 
 ### Demonstração
 Link: [Meu porfolio](https://meuporfolio.com)
