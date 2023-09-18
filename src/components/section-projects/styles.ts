@@ -81,4 +81,11 @@ export const StyledSectionProjects = styled.section`
       margin-top: 1.5rem;
     }
   }
+
+  @media (max-width: 750px) {
+    .card_projects_container {
+      align-items: center;
+      justify-content: flex-start;
+    }
+  }
 `;
