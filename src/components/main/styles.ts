@@ -58,9 +58,6 @@ export const StyledMain = styled.main`
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    /* transition-duration: 0.5s;
-    transition-timing-function: ease-out; */
-
     transition: all cubic-bezier(0.1, 3.5, 0.8, 2) 0.6s;
 
     &.is_moving {
@@ -89,10 +86,11 @@ export const StyledMain = styled.main`
 
   @media (max-width: 850px) {
     flex-direction: column;
+    justify-content: center;
 
     .donut_logo_main {
-      min-width: 221px;
-      height: 224px;
+      min-width: 212px;
+      height: 215px;
     }
   }
 

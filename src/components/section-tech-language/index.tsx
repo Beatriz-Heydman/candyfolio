@@ -5,13 +5,13 @@ import { useState } from "react";
 import { CardTechLanguage } from "../card-tech-language";
 import { CardTechDescription } from "../card-tech-description";
 import { Flex } from "../flex";
-import { Typography } from "../typography";
 
 //Styles
-import { StyledSectionTechLanguage } from "./styles";
+import { CardLanguageTechContainer } from "./styles";
 
 //Constants
 import { CARDS_LANGUAGES_TECH } from "../../constants/card-languages-tech";
+import { PageSection } from "../page-section";
 
 export function SectionTechLanguage() {
   const [currentName, setCurrentName] = useState(CARDS_LANGUAGES_TECH[0].name);
@@ -23,13 +23,14 @@ export function SectionTechLanguage() {
   );
 
   return (
-    <StyledSectionTechLanguage id="section_tech_language">
-      <Typography size="2.5rem" fontWheight="600" color="var(--pink-600)">
-        Tecnologias
-      </Typography>
-
-      <div className="card_language_tech_container">
-        <Flex style={{ width: "100%" }} direction="column" gap="1.25rem">
+    <PageSection sectionName="Tecnologias" id="section_tech_language">
+      <CardLanguageTechContainer>
+        <Flex
+          style={{ width: "100%" }}
+          direction="column"
+          gap="1.25rem"
+          alignItems="flex-start"
+        >
           {CARDS_LANGUAGES_TECH.map((CARD_LANGUAGE_TECH, id) => (
             <CardTechLanguage
               key={id}
@@ -67,7 +68,7 @@ export function SectionTechLanguage() {
           description={currentDescription}
           color={currentColor}
         />
-      </div>
-    </StyledSectionTechLanguage>
+      </CardLanguageTechContainer>
+    </PageSection>
   );
 }
