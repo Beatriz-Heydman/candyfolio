@@ -1,13 +1,12 @@
-import { ComponentProps, ReactNode } from "react";
-import { PageSectionContainer } from "./styles";
+//Components
 import { Typography } from "../typography";
 import { Flex } from "../flex";
 
-type PageSectionProps = ComponentProps<"section"> & {
-  children: ReactNode;
-  sectionName: string;
-  subTitle?: ReactNode;
-};
+//Styles
+import { PageSectionContainer } from "./styles";
+
+//Types
+import { PageSectionProps } from "./types";
 
 export function PageSection({
   children,

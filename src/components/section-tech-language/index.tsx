@@ -5,13 +5,13 @@ import { useState } from "react";
 import { CardTechLanguage } from "../card-tech-language";
 import { CardTechDescription } from "../card-tech-description";
 import { Flex } from "../flex";
+import { PageSection } from "../page-section";
 
 //Styles
 import { CardLanguageTechContainer } from "./styles";
 
 //Constants
 import { CARDS_LANGUAGES_TECH } from "../../constants/card-languages-tech";
-import { PageSection } from "../page-section";
 
 export function SectionTechLanguage() {
   const [currentName, setCurrentName] = useState(CARDS_LANGUAGES_TECH[0].name);
