@@ -1,17 +1,19 @@
 ## Tecnologias 
 
-<div>
+<div >
    
- <img src="https://cdn0.iconfinder.com/data/icons/logos-brands-in-colors/128/react-512.png" width="52"/>
-<img src="https://th.bing.com/th/id/OIP.o42cmdc6hAzMlb5k5VBv1AHaHa?pid=ImgDet&rs=1" width="52"/>
-<img src="https://www.bing.com/th?id=OIP.bSEhsvI9lRtWOq4-Jz-QxAHaHa&w=99&h=100&c=8&rs=1&qlt=90&o=6&dpr=1.3&pid=3.1&rm=2" width="52"/>
-<img src="https://th.bing.com/th?id=OIP.c1rnU4_5k7Mimo_CA1efmQAAAA&w=224&h=224&c=8&rs=1&qlt=90&o=6&dpr=1.3&pid=3.1&rm=2" width="52"/>
-<img src="https://th.bing.com/th/id/OIP.-AjQllNCZP3Bp7gHsV_ySQHaHa?pid=ImgDet&rs=1" width="52"/>
+<img src="https://www.offidocs.com/images/logohtmlhtml5.jpg" width="52"/>
+<img src="https://gremmedia.hu/storage/app/uploads/public/5eb/e9a/f22/5ebe9af2215a9357125656.png" width="52"/>
+<img src="https://unity.voximplant.com/70b5435d958e0eedb7901b2f99fb92a0.png" width="52"/>
+<img src="https://phyloworks.org/images/gscholar.png" width="52"/>
+<img src="https://digipa.tech/wp-content/themes/new-magic-website-theme/img/services/it-consulting/typescript-logo.png" width="52"/>
+<img src="https://lens-storage.storage.googleapis.com/png/a81e5e5db95a4ef69460c86a940e3037" width="52"/>
+
 </div>
 
 
 ### Apresentação
-Portfolio para demonstrar minhas habilidades com programação, espero que goste :)
+Portfólio para demonstrar minhas habilidades com programação, espero que goste :)
 
 ### Demonstração
 Link: [Meu porfolio](https://meuporfolio.com)
