@@ -6,13 +6,6 @@ export const StyledHeader = styled.div`
   height: 40vh;
   width: 100%;
 
-  .site_name {
-    top: 1.2rem;
-    left: 1rem;
-    position: absolute;
-    letter-spacing: -0.1rem;
-  }
-
   .candy_frosting_img {
     width: 100%;
     height: 100%;
@@ -24,17 +17,21 @@ export const StyledHeader = styled.div`
     pointer-events: none;
   }
 
-  .styled_site_name {
+  .header_title {
+    position: absolute;
+    top: 1.2rem;
+    left: 1rem;
+    font-weight: 600;
+    color: var(--pink-400);
     -webkit-text-stroke: 1px var(--pink-800);
+    font-size: 1.5rem;
+    font-family: "Kodchasan";
   }
 
-  @media (max-width: 450px) {
-    .styled_site_name {
-      font-size: 1.2rem;
-    }
-  }
-  @media (max-width: 400px) {
-    .styled_site_name {
+  @media (max-width: 550px) {
+    height: 25dvh;
+
+    .header_title {
       font-size: 1rem;
     }
   }
