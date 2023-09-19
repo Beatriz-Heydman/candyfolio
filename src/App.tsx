@@ -14,15 +14,11 @@ import { SectionTechLanguage } from "./components/section-tech-language";
 function App() {
   return (
     <StyleSheetManager shouldForwardProp={isPropValid}>
-      <Flex
-        direction="column"
-        justifyContent="flex-start"
-        style={{ height: "100vh" }}
-      >
+      <div className="main_content">
         <Header />
 
         <Main />
-      </Flex>
+      </div>
 
       <ArticleAboutMe />
 

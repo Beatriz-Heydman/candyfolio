@@ -76,3 +76,12 @@ body {
   background-repeat: repeat-x;
 
 }
+
+.main_content {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  height: 100dvh;
+}
