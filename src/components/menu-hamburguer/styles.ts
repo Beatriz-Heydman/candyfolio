@@ -99,4 +99,10 @@ export const StyledMenuHamburguer = styled.button`
       border: 2px solid var(--pink-800);
     }
   }
+
+  @media (max-width: 550px) {
+    &.sidebar {
+      min-width: 100%;
+    }
+  }
 `;
