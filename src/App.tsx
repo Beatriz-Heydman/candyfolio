@@ -4,7 +4,6 @@ import { StyleSheetManager } from "styled-components";
 
 //Components
 import { ArticleAboutMe } from "./components/article-about-me";
-import { Flex } from "./components/flex";
 import { Footer } from "./components/footer";
 import { Header } from "./components/header";
 import { Main } from "./components/main";
@@ -22,18 +21,13 @@ function App() {
 
       <ArticleAboutMe />
 
-      <Flex
-        direction="column"
-        style={{
-          width: "100%",
-        }}
-      >
+      <div className="sections_content">
         <SectionProjects />
 
         <div className="section_division" />
 
         <SectionTechLanguage />
-      </Flex>
+      </div>
 
       <Footer />
     </StyleSheetManager>

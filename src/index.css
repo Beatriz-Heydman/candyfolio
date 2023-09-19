@@ -34,7 +34,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: 'Quicksand', 'Arial';
+  font-family: 'Quicksand', 'Kodchasan', 'Arial';
 }
 
 *::selection {
@@ -74,7 +74,6 @@ body {
   background-position: bottom;
   background-size: 50px;
   background-repeat: repeat-x;
-
 }
 
 .main_content {
@@ -84,4 +83,11 @@ body {
   align-items: center;
   height: 100vh;
   height: 100dvh;
+}
+
+.sections_content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
