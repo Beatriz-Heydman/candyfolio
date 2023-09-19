@@ -99,20 +99,4 @@ export const StyledMenuHamburguer = styled.button`
       border: 2px solid var(--pink-800);
     }
   }
-
-  @media (max-width: 550px) {
-    width: 50px;
-    height: 50px;
-    padding: 0.6rem;
-
-    .menu_hamburguer_bar {
-      height: 7px;
-    }
-  }
-
-  @media (max-width: 450px) {
-    &.sidebar {
-      width: 100%;
-    }
-  }
 `;
