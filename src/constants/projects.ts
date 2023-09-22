@@ -18,23 +18,6 @@ export const PROJECTS = [
   },
   {
     id: 3,
-    name: "Buscador de CEP",
-    description: "Site de busca de CEP, com comunicação com API Viacep.",
-    image: "/assets/images/zip-search-project.png",
-    github: "https://github.com/Beatriz-Heydman/zip-search",
-    deploy: "https://zip-search.vercel.app/",
-  },
-  {
-    id: 4,
-    name: "Lista de tarefas",
-    description:
-      "Site de listagem de tarefas, com persistência de dados no local storage.",
-    image: "/assets/images/to-do-list-project.png",
-    github: "https://github.com/Beatriz-Heydman/new-to-do-list",
-    deploy: "https://new-to-do-list-pink.vercel.app/",
-  },
-  {
-    id: 5,
     name: "Gestão de despesas",
     description:
       "Site de controle de despesas, com API fake usando json server.",
@@ -43,7 +26,7 @@ export const PROJECTS = [
     deploy: "https://github.com/Beatriz-Heydman/expense-management#readme",
   },
   {
-    id: 6,
+    id: 4,
     name: "Formulário de usuários",
     description:
       "Site de CRUD (create, read, update and delete) de usuários, com API fake usando json server.",
@@ -51,5 +34,22 @@ export const PROJECTS = [
     github: "https://github.com/Beatriz-Heydman/crud-users-form",
     deploy:
       "https://github.com/Beatriz-Heydman/expense-management/tree/master#readme",
+  },
+  {
+    id: 5,
+    name: "Buscador de CEP",
+    description: "Site de busca de CEP, com comunicação com API Viacep.",
+    image: "/assets/images/zip-search-project.png",
+    github: "https://github.com/Beatriz-Heydman/zip-search",
+    deploy: "https://zip-search.vercel.app/",
+  },
+  {
+    id: 6,
+    name: "Lista de tarefas",
+    description:
+      "Site de listagem de tarefas, com persistência de dados no local storage.",
+    image: "/assets/images/to-do-list-project.png",
+    github: "https://github.com/Beatriz-Heydman/new-to-do-list",
+    deploy: "https://new-to-do-list-pink.vercel.app/",
   },
 ];
