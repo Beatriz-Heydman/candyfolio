@@ -16,7 +16,7 @@
 Portfólio para demonstrar minhas habilidades com programação, espero que goste :)
 
 ### Demonstração
-Link: [Meu porfolio](https://meuporfolio.com)
+Link: [Meu porfolio](https://candyfolio-beatriz.vercel.app/)
 
 ### Execute o projeto em sua máquina
 
